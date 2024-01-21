@@ -28,7 +28,7 @@ To run the project using Docker Compose, follow these steps:
 3. Build and start the Docker containers:
 
     ```bash
-    docker-compose up --build
+    docker-compose up --build -d
     ```
 
    This command will build the Docker images and start the containers based on the configuration in `docker-compose.yml`.
